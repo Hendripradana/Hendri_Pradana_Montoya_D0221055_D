@@ -1,0 +1,22 @@
+package day25;
+
+import java.util.ArrayList;
+
+
+public class Day25 {
+
+  
+    public static void main(String[] args) {
+        ArrayList<String> hewan = new ArrayList();
+        hewan.add("Kucing");
+        hewan.add("Kambing");
+        hewan.add("Kelinci");
+        hewan.add("Kerbau");
+        hewan.add("Kuda");
+        for (String tampilkan : hewan) {
+            System.out.println(tampilkan);
+            
+        }
+    }
+    
+}
